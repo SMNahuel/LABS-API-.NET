@@ -35,12 +35,14 @@ public class WeatherForecastController : ControllerBase
 
     //Verbos
     [HttpGet(Name = "GetWeatherForecast")]
+    [Route("Get/WeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
         return ListWeatherForecast;
     }
 
     [HttpPost]
+    [Route("Post/WeatherForecast")]
     public IActionResult Post(WeatherForecast weatherForecast)
     {
         ListWeatherForecast.Add(weatherForecast);
@@ -49,6 +51,7 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpDelete("{index}")]
+    [Route("Delete/WeatherForecast")]
     public IActionResult Delete(int index)
     {
         ListWeatherForecast.RemoveAt(index);
