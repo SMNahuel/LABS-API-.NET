@@ -6,15 +6,18 @@ namespace wepapi.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
+    //Tipos de datos que son permitidos
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
-
+    
+    //Lista que usaremos en la API
     private static List<WeatherForecast> ListWeatherForecast = new List<WeatherForecast>();
 
+    //Metodos principal que mockea la lista 
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
@@ -30,6 +33,7 @@ public class WeatherForecastController : ControllerBase
         }
     }
 
+    //Verbos
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
