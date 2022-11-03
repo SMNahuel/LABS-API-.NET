@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BkLGw5WTJQh7atshyhA2r6bG0guZJHZo9Mh3SWZGweI=",
+  "Source": "wepapi",
+  "BasePath": "_content/wepapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

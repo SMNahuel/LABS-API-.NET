@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ag4MiscJoHjKuevggzSBt0iOYbVyAVCPZ/AAZnDInMB6x+R2tqgwh+viF3TCNIt0XetpghWKUmMjgkx+rrXQsQ==",
+  "success": true,
+  "projectFilePath": "/home/eameo/Documentos/wepapi/wepapi.csproj",
+  "expectedPackageFiles": [
+    "/home/eameo/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/eameo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/eameo/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/eameo/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/eameo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/eameo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
